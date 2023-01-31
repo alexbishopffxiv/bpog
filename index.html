@@ -1,8 +1,39 @@
 <!DOCTYPE html>
-<head> </head>
+<head>
+  <style>
+    body {
+      background: transparent;
+    }
+
+    img {
+      height: 70px;
+      width: 70px;
+    }
+
+    .wrapper {
+      display: flex;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      margin-right: 20px;
+    }
+  </style>
+</head>
 <body>
-  <img src="./x.png" />
-  <img src="./p.png" />
-  <img src="./o.png" />
-  <img src="./g.png" />
+  <div class="wrapper">
+    <div class="column">
+      <img src="./g.png" />
+      <img src="./o.png" />
+      <img src="./p.png" />
+      <img src="./x.png" />
+    </div>
+    <div class="column">
+      <img src="./x.png" />
+      <img src="./p.png" />
+      <img src="./o.png" />
+      <img src="./g.png" />
+    </div>
+  </div>
 </body>
